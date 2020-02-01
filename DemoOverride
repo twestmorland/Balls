@@ -1,0 +1,24 @@
+class cow:
+
+  horse = "I give this when I'm printed "
+  
+  def __str__(self):
+    return self.horse
+
+x = cow()
+y = cow()
+
+print ("printing x first : ", x)
+
+x.horse = "neigh"
+
+print ("printing x second: ", x)
+print ("print y          : ",y)
+
+
+"""
+Output
+printing x first :  I give this when I'm printed
+printing x second:  neigh
+print y          :  I give this when I'm printed
+"""
